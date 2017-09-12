@@ -19,7 +19,6 @@ namespace Interview_Exercise_Tests.IntegrationTests
                 _repository = new CountryCodeRepository(repository, validateCountry);
 
                 var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "InterviewExercise");
-                path = "/Users/mmello/InterviewExercise";
                 string filename = Path.Combine(path, "U.csv");
                 File.WriteAllText(filename, "USA;UNITED STATES");
             }

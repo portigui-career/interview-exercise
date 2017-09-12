@@ -12,7 +12,6 @@
         public CountryCodeFileHandler()
         {
             _path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "InterviewExercise");
-            _path = "/Users/mmello/InterviewExercise";
             Directory.CreateDirectory(_path);
         }
 
